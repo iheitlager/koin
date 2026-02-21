@@ -10,3 +10,5 @@ classes/
 /captures
 yarn.lock
 .kotlin/
+.mcp.json
+.claude/settings.local.json
