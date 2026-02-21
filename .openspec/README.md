@@ -84,6 +84,18 @@ Documents Android-specific capabilities:
 
 **Focus**: Testing utilities and module verification
 
+### 006-koin-core-coroutines
+
+**Path**: `.openspec/specs/006-koin-core-coroutines/spec.md`
+
+**Focus**: Lazy module loading and background initialization
+
+Documents coroutine-based capabilities:
+- LazyModule declaration and composition
+- Background module loading via KoinCoroutinesEngine
+- Await semantics for start job completion
+- ModuleConfiguration for grouping sync/async modules
+
 ## Directory Structure
 
 ```
