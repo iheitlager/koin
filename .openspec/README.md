@@ -120,7 +120,7 @@ These specs follow the traceability metamodel defined in code-analyzer's ADR-001
 
 ## Origin
 
-These specifications were reverse-engineered from the Koin 4.1.2 codebase using [code-analyzer](https://github.com/iheitlager/code-analyzer). They document the current implemented behavior, not aspirational features.
+These specifications were reverse-engineered from the Koin 4.1.2 codebase using Claude Code Opus 4.5. They document the current implemented behavior, not aspirational features.
 
 ---
 
