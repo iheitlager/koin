@@ -4,7 +4,7 @@ This directory contains reverse-engineered behavioral specifications and archite
 
 ## What is OpenSpec?
 
-OpenSpec is a specification format designed for:
+[OpenSpec](https://openspec.dev/) is a specification format designed for:
 - **Clear requirements**: Documenting what a system must, should, or may do
 - **Testable scenarios**: Using Given-When-Then format for validation
 - **Evolution tracking**: Marking features as proposed, implemented, or deprecated
