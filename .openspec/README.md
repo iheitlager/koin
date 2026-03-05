@@ -35,67 +35,6 @@ WHEN [action or event]
 THEN [expected outcome]
 ```
 
-## Current Specifications
-
-### 001-koin-core
-
-**Path**: `.openspec/specs/001-koin-core/spec.md`
-
-**Focus**: Core DI container, DSL, scoping, and resolution
-
-Documents the foundational Koin framework covering:
-- DI container (Koin, KoinApplication)
-- Module DSL for declaring definitions
-- Bean definitions (single, factory, scoped)
-- Scope management and lifecycle
-- Dependency resolution and instance creation
-- Qualifier and parameter systems
-- Extension mechanism
-
-### 002-koin-android
-
-**Path**: `.openspec/specs/002-koin-android/spec.md`
-
-**Focus**: Android platform integration
-
-Documents Android-specific capabilities:
-- Android Context injection
-- Activity/Fragment scope management
-- ViewModel integration
-- AndroidX Navigation support
-- WorkManager integration
-- App Startup integration
-
-### 003-koin-compose
-
-**Path**: `.openspec/specs/003-koin-compose/spec.md`
-
-**Focus**: Jetpack Compose and Compose Multiplatform integration
-
-### 004-koin-ktor
-
-**Path**: `.openspec/specs/004-koin-ktor/spec.md`
-
-**Focus**: Ktor server-side framework integration
-
-### 005-koin-test
-
-**Path**: `.openspec/specs/005-koin-test/spec.md`
-
-**Focus**: Testing utilities and module verification
-
-### 006-koin-core-coroutines
-
-**Path**: `.openspec/specs/006-koin-core-coroutines/spec.md`
-
-**Focus**: Lazy module loading and background initialization
-
-Documents coroutine-based capabilities:
-- LazyModule declaration and composition
-- Background module loading via KoinCoroutinesEngine
-- Await semantics for start job completion
-- ModuleConfiguration for grouping sync/async modules
-
 ## Directory Structure
 
 ```
@@ -113,7 +52,7 @@ Documents coroutine-based capabilities:
 
 ## Traceability
 
-These specs follow the traceability metamodel defined in code-analyzer's ADR-0019:
+These specs follow a traceability metamodel:
 - **IMPLEMENTED_BY**: Each requirement links to source files via `**Implementation**:` lines
 - **ADDRESSED_BY**: Requirements reference ADRs via `ADR-XXXX` notation
 - **TESTED_BY**: Scenarios link to test functions (inferred from code structure)
